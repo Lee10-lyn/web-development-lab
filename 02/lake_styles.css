@@ -1,0 +1,126 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+
+
+*/
+
+@font-face {
+    font-family: 'CAC Champagne';
+    src: url('cac_champagne.ttf') format('truetype');
+    
+  
+}
+@font-face { 
+
+font-family: 'DobkinPlain';
+src: url('DobkinPlain.ttf') format('truetype');
+}
+
+
+
+nav a {
+color: #c4c2c2;
+text-decoration: none;
+}
+/* 应用字体 */
+#leftcol >h1{
+    font-family: 'CAC Champagne', sans-serif;
+    margin: 0;
+    padding: 0;
+   font-size: 3.5em;
+
+}
+  section#rightcol nav h2 {
+    font-family:'CAC Champagne', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+
+}
+section#rightcol nav ul{
+     color: rgba(44, 62, 80, 0.6);
+     text-decoration: none;
+
+}
+
+
+body {
+    background-color: rgba(69, 2, 69, 0.861);
+    color: aliceblue;
+}
+#leftcol{
+    background-color: black;
+}
+aside:first-of-type {
+    background-color: rgba(227, 178, 186, 0.932);
+     text-align: center;
+}
+aside p{
+    margin: 10px;
+    font-size: 1em;
+     text-align: left;
+}
+aside ul{
+    font-size: 1em;
+     text-align: left;
+
+}
+aside a{
+    color: rgb(231, 94, 144);
+}
+aside h2{
+    font-size: 1em;
+     text-align: left;
+}
+aside:nth-of-type(2) {
+    background-color: rgba(240, 206, 120, 0.916);
+     text-align: center;
+}
+footer{
+    background-color: rgba(31, 2, 2, 0.717);
+    color: #c4c2c2;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+blockquote{
+    color: rgba(211, 146, 198, 0.685);
+    margin: 10px;
+    width: 90;
+    font-size: 1em;
+     margin-top: 100px;
+    
+}
+
+blockquote::before {
+    content: "“"; /* 左引号 */
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+blockquote::after {
+    content: "”"; /* 右引号 */
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+/* 移除所有无序列表的符号 */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}

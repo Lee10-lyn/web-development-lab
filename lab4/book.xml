@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?">
+<catalogue>
+    <book id="111"> 
+        <title>The C Programming Language</title>
+        <author>Kernighan, B.W.</author>
+        <price>19.95</price>
+    </book> 
+    <book id="222"> 
+        <title>The C++ Programming Language</title>
+        <author>Stroustrup, B.</author>
+        <price>24.95</price>
+    </book>
+    <book id="333"> 
+        <title>The Java Programming Language</title>
+        <author>Gosling, J.G.</author>
+        <price>29.95</price>
+    </book>
+</catalogue>
